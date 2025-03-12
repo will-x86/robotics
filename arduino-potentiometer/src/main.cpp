@@ -1,7 +1,9 @@
 /* ********************************************************************
  * Arduino Potentiometer
  * A Program to Adjust the brightness of an LED light using the values
- of a potentionmeter (Code modified from Michalis Vasilakis 24/10/2014)
+ of a potentionmeter 
+ * (Code modified from Michalis Vasilakis 24/10/2014) 
+ https://www.instructables.com/How-to-use-Potentiometer-Arduino-Tutorial/
  * Version A
  * *******************************************************************/
 #include <Arduino.h>

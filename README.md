@@ -25,7 +25,11 @@ Small OLED display project with ESP32
 ![ESP32 OLED Image 1](esp32-oled/image_1.jpeg)
 
 ### 5. Arduino Joystick
+Reading the values of a Joystick
+
+![Arduino Potentiometer Image 1](arduino-joystick/image_1.jpeg)
 
 ### 6. Arduino Potentiometer
 Brightness Control using Potentiometer
+
 ![Arduino Potentiometer Image 1](arduino-potentiometer/image_1.jpeg)

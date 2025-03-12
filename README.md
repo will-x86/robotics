@@ -23,3 +23,7 @@ Accelerometer and gyroscope project
 Small OLED display project with ESP32
 
 ![ESP32 OLED Image 1](esp32-oled/image_1.jpeg)
+
+### 5. Arduino Joystick
+
+### 6. Arduino Potentiometer

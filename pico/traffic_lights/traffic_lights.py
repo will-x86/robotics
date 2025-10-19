@@ -20,7 +20,7 @@ def beep(duration=0.5):
 
 def check_button_violation(state):
     if button.value() == 0 and state != "green":
-        print(f"Brother do you want to be hit by a car ? It's {state.upper()}")
+        print(f"Brother do you want to die - It's {state.upper()}")
         beep(0.5)
         time.sleep(0.3)
 
@@ -36,11 +36,6 @@ def traffic_light_cycle():
     red_time = random.uniform(3, 7)
     print(f"RED - {red_time:.1f}s")
     wait_and_check(red_time, "red")
-    
-    orange_led.on()
-    red_orange_time = random.uniform(1, 2)
-    print(f"RED+ORANGE - {red_orange_time:.1f}s")
-    wait_and_check(red_orange_time, "red+orange")
     
     all_off()
     green_led.on()
@@ -60,8 +55,8 @@ def traffic_light_cycle():
     print(f"ORANGE - {orange_time:.1f}s")
     wait_and_check(orange_time, "orange")
 
-print("Traffic lights start")
-print("Press when you want to cross the road!")
+print("Traffic light system started")
+print("Press the button when you would cross the road")
 
 try:
     while True:
